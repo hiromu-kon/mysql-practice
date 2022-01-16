@@ -10,5 +10,8 @@ CREATE TABLE posts
     PRIMARY KEY (`id`)
 );
 
-INSERT INTO posts (title, content, status, user_id, created_at, updated_at) VALUES ('Test1', 'Test Content1', '公開済み', 1, '2021-10-04 00:00:00', '2021-10-04 00:00:00');
-INSERT INTO posts (title, content, status, user_id, created_at, updated_at) VALUES ('Test2', 'Test Content2', '非公開', 1, '2021-10-04 00:00:00', '2021-10-04 00:00:00');
+INSERT INTO posts
+    (title, content, status, user_id, created_at, updated_at) 
+VALUES
+    ('Test1', 'Test Content1', '公開済み', 1, '2021-10-04 00:00:00', '2021-10-04 00:00:00'),
+    ('Test2', 'Test Content2', '非公開', 1, '2021-10-04 00:00:00', '2021-10-04 00:00:00');
