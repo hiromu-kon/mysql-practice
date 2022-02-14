@@ -6,7 +6,8 @@ CREATE TABLE follows
     `created_at`  datetime NOT NULL,
     `updated_at`  datetime NOT NULL,
     PRIMARY KEY (`id`)
-);
+)
+comment='フォローテーブル';
 
 INSERT INTO follows 
     (follower_id, followee_id, created_at, updated_at)

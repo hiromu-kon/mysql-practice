@@ -7,7 +7,8 @@ CREATE TABLE users
     `created_at` datetime     NOT NULL,
     `updated_at` datetime     NOT NULL,
     PRIMARY KEY (`id`)
-),
+)
+comment='ユーザーテーブル';
 
 INSERT INTO users
     (name, email, password, created_at, updated_at)

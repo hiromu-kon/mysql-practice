@@ -7,4 +7,5 @@ CREATE TABLE contacts
     `created_at` datetime      NOT NULL,
     `updated_at` datetime      NOT NULL,
     PRIMARY KEY (`id`)
-);
+)
+comment='お問い合わせテーブル';

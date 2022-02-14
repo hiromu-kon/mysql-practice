@@ -6,4 +6,5 @@ CREATE TABLE post_tag
     `created_at` datetime NOT NULL,
     `updated_at` datetime NOT NULL,
     PRIMARY KEY (`id`)
-);
+)
+comment='投稿タグテーブル';

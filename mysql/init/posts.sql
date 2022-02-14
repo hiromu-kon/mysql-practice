@@ -8,7 +8,8 @@ CREATE TABLE posts
     `created_at` datetime     NOT NULL,
     `updated_at` datetime     NOT NULL,
     PRIMARY KEY (`id`)
-);
+)
+comment='投稿テーブル';
 
 INSERT INTO posts
     (title, content, status, user_id, created_at, updated_at) 

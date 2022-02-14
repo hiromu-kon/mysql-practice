@@ -5,4 +5,5 @@ CREATE TABLE tags
     `created_at` datetime     NOT NULL,
     `updated_at` datetime     NOT NULL,
     PRIMARY KEY (`id`)
-);
+)
+comment='タグテーブル';
